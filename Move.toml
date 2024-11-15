@@ -1,0 +1,16 @@
+[package]
+name = "donation-to-beneficiaries"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x36944897c44a456f350365ad2e3f1375182d6a39e84ff8b9021e02e8cfe341ab"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
